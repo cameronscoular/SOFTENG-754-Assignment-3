@@ -1,1 +1,5 @@
 language: java
+jdk: oraclejdk8
+CODECOV_TOKEN="ccb5ece1-f4ca-4af8-9ddb-b3f2dbf157a9"
+after_success:
+    - codecov

@@ -18,7 +18,7 @@ public class DollarTest {
 		Dollar result = ten.dividedBy(2);    
 	
 		// Then   
-		assertEquals(new Dollar(4), result);  // You could change 5 to 4 to see the build failure  
+		assertEquals(new Dollar(5), result);  // You could change 5 to 4 to see the build failure  
 		
 	}    
 	
